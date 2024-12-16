@@ -1,0 +1,35 @@
+table#lihtne, td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+table#keeruline1, table#keeruline1 td{
+    /*html failis id=lihtne*/
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: pink;
+}
+table#keeruline2, table#keeruline2 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: thistle;
+}
+table#keeruline3, table#keeruline3 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: thistle;
+}
