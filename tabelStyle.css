@@ -1,4 +1,4 @@
-table#lihtne, td{
+table#lihtne{
     /*html failis id=lihtne*/
     width: 20%;
     border: 1px solid black;
@@ -6,6 +6,39 @@ table#lihtne, td{
     padding: 10px;
     border-collapse: collapse;
 }
+/* tabeli pseudoelementide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+background-color: plum;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){/*2.rida 2.lahter*/
+background-color: pink;
+}
+
+#lihtne tr:nth-child(1) td:nth-child(3){/*3.rida 3.lahter*/
+        background-color: lightpink;
+    }
+#lihtne tr:nth-child(2) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: orchid;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){/*2.rida 2.lahter*/
+    background-color: lightcoral;
+}
+#lihtne tr:nth-child(2) td:nth-child(3){/*3.rida 3.lahter*/
+    background-color: plum;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 table#keeruline1, table#keeruline1 td{
     /*html failis id=lihtne*/
     width: 30%;
@@ -32,4 +65,99 @@ table#keeruline3, table#keeruline3 td{
     padding: 10px;
     border-collapse: collapse;
     background-color: thistle;
+}
+table#keeruline4, table#keeruline4 td {
+    /*html failis id=lihtne*/
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+    #keeruline4 tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+        background-color: plum;
+        width: 20%;
+    }
+    #keeruline4 tr:nth-child(1) td:nth-child(2){/*2.rida 2.lahter*/
+        background-color: pink;
+        width: 20%;
+    }
+
+    #keeruline4 tr:nth-child(1) td:nth-child(3){/*3.rida 3.lahter*/
+        background-color: lightpink;
+        width: 20%;
+    }
+    #keeruline4 tr:nth-child(2) td:nth-child(1){/*1.rida 1.lahter*/
+        background-color: orchid;
+        width: 20%;
+    }
+    #keeruline4 tr:nth-child(2) td:nth-child(2){/*2.rida 2.lahter*/
+        background-color: lightcoral;
+        width: 20%;
+    }
+#keeruline4 tr:nth-child(2) td:nth-child(3){/*2.rida 2.lahter*/
+    background-color: hotpink;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(4){/*2.rida 2.lahter*/
+    background-color: darkviolet;
+    width: 20%;
+}
+    #keeruline4 tr:nth-child(3) td:nth-child(1){/*3.rida 3.lahter*/
+        background-color: fuchsia;
+        width: 20%;
+    }
+    #keeruline4 tr:nth-child(3) td:nth-child(2){/*2.rida 2.lahter*/
+        background-color: violet;
+        width: 20%;
+    }
+#keeruline4 tr:nth-child(3) td:nth-child(3){/*2.rida 2.lahter*/
+    background-color: palevioletred;
+    width: 20%;
+}
+table#keeruline5, table#keeruline5 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: thistle;
+}
+
+#keeruline5 tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: plum;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(1){/*2.rida 2.lahter*/
+    background-color: pink;
+
+}
+
+#keeruline4 tr:nth-child(2) td:nth-child(2){/*3.rida 3.lahter*/
+    background-color: lightpink;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(3){/*1.rida 1.lahter*/
+    background-color: orchid;
+
+}
+#keeruline4 tr:nth-child(3) td:nth-child(1){/*2.rida 2.lahter*/
+    background-color: lightcoral;
+
+}
+#keeruline4 tr:nth-child(3) td:nth-child(3){/*2.rida 2.lahter*/
+    background-color: hotpink;
+
+}
+#keeruline4 tr:nth-child(3) td:nth-child(4){/*2.rida 2.lahter*/
+    background-color: darkviolet;
+}
+#keeruline4 tr:nth-child(4) td:nth-child(3){/*3.rida 3.lahter*/
+    background-color: fuchsia;
+
+}
+#keeruline4 tr:nth-child(5) td:nth-child(2){/*2.rida 2.lahter*/
+    background-color: violet;
+}
+#keeruline4 tr:nth-child(6) td:nth-child(1){/*2.rida 2.lahter*/
+    background-color: palevioletred;
+
 }
