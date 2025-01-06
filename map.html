@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map area kasutamine</title>
+</head>
+<body>
+<h1>Map / Area kasutamine</h1>
+<img src="maja.jpg" alt="ilus maja" usemap="#majake">
+<map name="majake">
+    <!--ring coord= x, y -keskpunkt, R-raadius-->-->
+    <area shape="circle" coords="133,168,50" href="aken.html" alt="aken">
+    <!--ristküülik-->
+    <area shape="rect" coords="87,117,267,350" href="sein.html" alt="sein">
+    <area shape="poly" coords="88,116,177,28,264,114" href="katus.html" alt="katus">
+    <area shape="rect" coords="196,244,247,349" href="uks.html" alt="uks">
+    <area shape="circle" coords="323,60,25" href="paike.html" alt="paike">
+</map>
+<div>
+    Siia tuleb kirjeldus, kui sa klikid akna, seina või katuse peale
+</div>
+</body>
+</html>
