@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Map area kasutamine</title>
+    <link rel="stylesheet" href="mapStyle.css">
 </head>
 <body>
+<header>
 <h1>Map / Area kasutamine</h1>
+</header>
 <img src="maja.jpg" alt="ilus maja" usemap="#majake">
 <map name="majake">
-    <!--ring coord= x, y -keskpunkt, R-raadius-->-->
+    <!--ring coord= x, y -keskpunkt, R-raadius-->
     <area shape="circle" coords="133,168,50" href="aken.html" alt="aken">
     <!--ristküülik-->
+    <area shape="rect" coords="196,244,247,349" href="uks.html" alt="uks">
+    <area shape="rect" coords="2,361,375,376" href="rohi.html" alt="rohi">
     <area shape="rect" coords="87,117,267,350" href="sein.html" alt="sein">
     <area shape="poly" coords="88,116,177,28,264,114" href="katus.html" alt="katus">
+    <area shape="circle" coords="323,60,25" href="paike.html" alt="paike">
+    <area shape="poly" coords="44,218,85,347,4,345" href="putka.html" alt="putka">
+    <area shape="circle" coords="340,281,28" href="puu.html" alt="puu">
 </map>
 <div>
     Sein see on sein
 </div>
+<footer>
+    <strong>Sofia V &copy; 2025</strong>
+</footer>
 </body>
 </html>

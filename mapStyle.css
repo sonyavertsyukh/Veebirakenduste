@@ -1,0 +1,37 @@
+div {
+    width: 10%;
+    height: 10%;
+    border: 1px solid deeppink;
+    position: absolute;
+    left: 12cm;
+    top: 4cm;
+    padding: 2%;
+    border-radius: 120px;
+    font-family: "Fira Code Retina", monospace;
+    background-color: pink;
+    text-align: center;
+    letter-spacing: normal;
+}
+footer{
+    text-align: center;
+    background-color: plum;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+header{
+    text-align: center;
+    width: 100%;
+    font-family: "Bodoni MT Poster Compressed";
+    letter-spacing: 0.1cm;
+    background-color: lightpink;
+}
+img{
+    border: 1px solid hotpink;
+    border-radius: 10%;
+    filter: invert(15%);
+    );
+    );
+
+}
